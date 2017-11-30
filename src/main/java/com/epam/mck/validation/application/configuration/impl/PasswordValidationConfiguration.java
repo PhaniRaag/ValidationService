@@ -84,7 +84,7 @@ public class PasswordValidationConfiguration implements ValidationConfiguration<
  * Lazy loads {@link validationsRules} when asked for the first time and only once per refresh cycle.
  * */
  	 
-	public HashMap<String,Pattern> getValidationRules2() {
+	public HashMap<String,Pattern> getValidationRules() {
 		LOG.info("Validation Rules available : " + getRules());
 		if(validationRules == null || validationRules.isEmpty()){
 			  validationRules = new HashMap<String, Pattern>();
