@@ -6,7 +6,7 @@
 	<groupId>com.epam.mck.validation</groupId>
 	<artifactId>validation-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>validation-service</name>
 	<description>Cloud ready validation service.A Client to Cloud Config Server</description>

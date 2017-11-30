@@ -3,9 +3,7 @@ package com.epam.mck.validation.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import org.springframework.boot.web.support.SpringBootServletInitializer;
-import org.springframework.boot.builder.SpringApplicationBuilder;
+ 
 
 /**
  * Cloud Ready MicroService to validate given data. 
@@ -17,12 +15,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  */
 
 @SpringBootApplication
-public class ValidationApplication extends SpringBootServletInitializer {
+public class ValidationApplication   {
 	
-	@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(ValidationApplication.class);
-    }
+	 
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ValidationApplication.class, args);
